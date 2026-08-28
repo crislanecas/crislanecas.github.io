@@ -267,11 +267,11 @@ header .hero-img .hero-text .bi-arrow-down:hover {
 }
 
 .portfolio .gallery .gallery__item .overlay .text h3 {
-  color: white;
+  color: black;
 }
 
 .portfolio .gallery .gallery__item .overlay .text a:hover {
-  color: white;
+  color: black;
 }
 
 .portfolio .gallery .gallery__item:hover .overlay {
