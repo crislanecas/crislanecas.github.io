@@ -73,6 +73,7 @@ button:hover, button:focus, button.active {
 
 .underline-dark {
   border-top: 2px solid black;
+  margin-top: 40px;
 }
 
 .underline-light {
