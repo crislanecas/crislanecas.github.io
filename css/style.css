@@ -494,9 +494,26 @@ footer span {
 }
 
 @media (max-width: 992px) {
-  header .hero-img .hero-text h1 {
-    font-size: 15vw;
-    line-height: 13.5vw;
+  header .hero-img .hero-text .hero-quote {
+    max-width: 680px;
+    font-size: clamp(1.8rem, 6.5vw, 3.2rem);
+    line-height: 1.18;
+  }
+}
+
+@media (max-width: 576px) {
+  header .hero-img .hero-text {
+    padding: 24px;
+  }
+
+  header .hero-img .hero-text .hero-quote {
+    font-size: clamp(1.65rem, 8vw, 2.4rem);
+    line-height: 1.2;
+  }
+
+  header .hero-img .hero-text .hero-author {
+    margin-top: 16px;
+    font-size: 0.95rem;
   }
 }
 
