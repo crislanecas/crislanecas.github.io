@@ -169,10 +169,53 @@ header .hero-img .hero-text {
   z-index: 2;
 }
 
-header .hero-img .hero-text h1 {
-  font-size: 10vw;
-  line-height: 8.5vw;
+header .hero-img .hero-text .hero-quote {
+  max-width: 1050px;
+  margin: 0;
+  color: white;
+  font-size: clamp(2rem, 3.8vw, 4rem);
+  line-height: 1.08;
   text-align: center;
+}
+
+header .hero-img .hero-text .hero-quote span {
+  display: block;
+}
+
+header .hero-img .hero-text .hero-author {
+  margin-top: 24px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: clamp(1rem, 1.6vw, 1.35rem);
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+header .hero-img .hero-text .hero-scroll {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  transform: translateX(-50%);
+  color: white;
+}
+
+header .hero-img .hero-text .hero-scroll .bi-arrow-down {
+  position: static;
+  transform: none;
+  font-size: clamp(2.5rem, 4vw, 4.5rem);
+  color: inherit;
+}
+
+header .hero-img .hero-text .hero-scroll:hover,
+header .hero-img .hero-text .hero-scroll:focus {
+  color: #00e9e6;
 }
 
 header .hero-img .hero-text .bi-arrow-down {
