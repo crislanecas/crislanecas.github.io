@@ -193,6 +193,24 @@ header .hero-img .hero-text .hero-author {
   text-align: center;
 }
 
+header .hero-img .hero-text .bi-arrow-down {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 80px;
+  font-size: 120px;
+  color: white;
+  z-index: 3;
+}
+
+header .hero-img .hero-text .bi-arrow-down:hover {
+  color: #00e9e6;
+}
+
+/*
+ * Hero scroll
+
 header .hero-img .hero-text .hero-scroll {
   position: absolute;
   bottom: 80px;
@@ -217,22 +235,8 @@ header .hero-img .hero-text .hero-scroll:hover,
 header .hero-img .hero-text .hero-scroll:focus {
   color: #00e9e6;
 }
-
-header .hero-img .hero-text .bi-arrow-down {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  bottom: 80px;
-  font-size: 120px;
-  color: white;
-  z-index: 3;
-}
-
-header .hero-img .hero-text .bi-arrow-down:hover {
-  color: #00e9e6;
-}
-
+ */
+ 
 /*
  * Gallery
  */
