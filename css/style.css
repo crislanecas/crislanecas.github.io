@@ -392,6 +392,10 @@ header .hero-img .hero-text .hero-scroll:focus {
   margin-top: -200px;
 }
 
+.profile-photo-column {
+  margin-top: 95px;
+}
+
 /*
  * Contact
  */
