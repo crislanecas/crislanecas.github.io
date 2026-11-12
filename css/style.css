@@ -60,7 +60,8 @@ button {
 }
 
 button:hover, button:focus, button.active {
-  color: #00e9e6;
+  color: black;
+  font-weight: bold;
 }
 
 .highlighted {
@@ -357,7 +358,7 @@ header .hero-img .hero-text .hero-scroll:focus {
 }
 
 .expertize .active {
-  background-color: red;
+  background-color: black;
   color: blue;
 }
 
@@ -493,7 +494,7 @@ footer span {
 @media (min-width: 576px) and (max-width: 992px) {
   .portfolio .gallery .gallery__item:hover .overlay {
     height: 160px;
-    background-color: red;
+    background-color:;
   }
   .portfolio .gallery .gallery__item .text,
   .portfolio .gallery .gallery__item:hover .text {
