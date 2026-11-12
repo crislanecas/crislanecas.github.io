@@ -323,7 +323,7 @@ header .hero-img .hero-text .hero-scroll:focus {
 }
 
 .portfolio .gallery .gallery__item:hover .overlay {
-  height: 40%;
+  height: 45%;
 }
 
 .portfolio .gallery .gallery__item:hover .text {
